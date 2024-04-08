@@ -2,8 +2,8 @@
 
 ## 创建vite应用
 ```shell
-cnpm init vite@latest viewui-demo -- --template vue
-cd viewui-demo
+cnpm init vite@latest view-ui-demo -- --template vue
+cd view-ui-demo
 cnpm install
 cnpm install -D less
 ```

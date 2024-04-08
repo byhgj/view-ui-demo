@@ -1,6 +1,11 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import store from './store'
 import route from './route'
 import 'view-ui-plus/dist/styles/viewuiplus.css'
 
-createApp(App).use(route).mount('#app')
+// localStorage.setItem('islogined', true);
+createApp(App)
+	.use(store)
+	.use(route)
+	.mount('#app')
